@@ -1,0 +1,196 @@
+.category {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 67px;
+    left: 0;
+    width: 210px;
+    height: 12px;
+    background-image: url("../../img/icon-decoration.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+}
+
+.category__container {
+  .container();
+  .display-flex-start();
+  flex-direction: column;
+  padding-top: 55px;
+  margin-bottom: 185px;
+}
+
+.category__title {
+  .ma-pa-reset();
+  margin-bottom: 56px;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: @color-blue;
+}
+
+.category__list {
+  .list-reset();
+  .display-flex-start();
+  flex-wrap: wrap;
+  margin-bottom: 37px;
+}
+
+.category__item {
+  width: 220px;
+  margin-right: 20px;
+  border: 1px solid @color-grey-light;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  text-align: center;
+
+  &:nth-child(4n+4) {
+    margin-right: 0;
+  }
+
+  &:nth-child(n+5) {
+    margin-bottom: 0;
+  }
+}
+
+.category__item-link {
+  .link-reset();
+  padding-top: 140px;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: @color-blue;
+  margin-bottom: 17px;
+  position: relative;
+
+  &--1 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 35px;
+      left: 76px;
+      width: 67px;
+      height: 71px;
+      background-image: url("../../img/icon-trending.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--2 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 43px;
+      left: 63px;
+      width: 83px;
+      height: 82px;
+      background-image: url("../../img/icon-rock.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--3 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 38px;
+      left: 60px;
+      width: 99px;
+      height: 94px;
+      background-image: url("../../img/icon-rnb.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--4 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 41px;
+      left: 75px;
+      width: 64px;
+      height: 67px;
+      background-image: url("../../img/icon-alternative.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--5 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 45px;
+      left: 71px;
+      width: 70px;
+      height: 70px;
+      background-image: url("../../img/icon-country.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--6 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 40px;
+      left: 61px;
+      width: 85px;
+      height: 85px;
+      background-image: url("../../img/icon-pop.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--7 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 41px;
+      left: 76px;
+      width: 68px;
+      height: 76px;
+      background-image: url("../../img/icon-jazz.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--8 {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 44px;
+      left: 71px;
+      width: 76px;
+      height: 79px;
+      background-image: url("../../img/icon-reggae.png");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.category__link {
+  .link-reset();
+  display: block;
+  width: 300px;
+  height: 42px;
+  margin-left: 320px;
+  padding-top: 12px;
+  padding-left: 103px;
+  border: 1px solid @color-grey-light-alt;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: @color-red;
+  text-transform: uppercase;
+}

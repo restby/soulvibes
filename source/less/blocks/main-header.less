@@ -1,0 +1,40 @@
+.main-header {
+  background-image: url("../../img/header-bg.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main-header__container {
+  .container();
+  .display-flex-start();
+  flex-direction: column;
+}
+
+.main-header__wrapper {
+  .display-flex-start();
+  padding-top: 26px;
+  justify-content: space-between;
+}
+
+.main-header__logo {
+  .link-reset();
+  margin-bottom: 120px;
+  display: block;
+  width: 198px;
+  height: 43px;
+  font-family: "CaviarDreams", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: @color-white;
+}
+
+.main-header__title {
+  .ma-pa-reset();
+  width: 620px;
+  font-family: "Lora", "Arial", sans-serif;
+  font-size: 72px;
+  line-height: 86px;
+  font-weight: 700;
+  margin-bottom: 124px;
+}
