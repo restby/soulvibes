@@ -1,0 +1,10 @@
+Имя базы данных			soulvibes
+Имя пользователя		root
+Пароль
+Сервер базы данных	localhost
+Префикс таблиц			slvb_
+
+Название сайта      soulvibes
+Имя пользователя    admin
+Пароль              RbtoxA28
+Ваш e-mail          restby@gmail.com
