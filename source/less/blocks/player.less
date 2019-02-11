@@ -25,8 +25,8 @@
     &::before {
       position: absolute;
       content: "";
-      top: 17px;
-      left: 25px;
+      top: 16px;
+      left: 24px;
       width: 14px;
       height: 25px;
       background-image: url("../../img/btn-play.png");
@@ -39,8 +39,8 @@
     &::before {
       position: absolute;
       content: "";
-      top: 11px;
-      left: 9px;
+      top: 10px;
+      left: 8px;
       width: 22px;
       height: 18px;
       background-image: url("../../img/btn-volume.png");
@@ -53,8 +53,8 @@
     &::before {
       position: absolute;
       content: "";
-      top: 12px;
-      left: 14px;
+      top: 11px;
+      left: 13px;
       width: 12px;
       height: 17px;
       background-image: url("../../img/btn-prev.png");
@@ -67,8 +67,8 @@
     &::before {
       position: absolute;
       content: "";
-      top: 12px;
-      left: 15px;
+      top: 11px;
+      left: 14px;
       width: 12px;
       height: 17px;
       background-image: url("../../img/btn-next.png");
@@ -81,8 +81,8 @@
     &::before {
       position: absolute;
       content: "";
-      top: 10px;
-      left: 11px;
+      top: 9px;
+      left: 10px;
       width: 18px;
       height: 20px;
       background-image: url("../../img/btn-repeat.png");
@@ -97,8 +97,8 @@
     &::before {
       position: absolute;
       content: "";
-      top: 14px;
-      left: 12px;
+      top: 13px;
+      left: 11px;
       width: 16px;
       height: 13px;
       background-image: url("../../img/btn-menu.png");
@@ -115,10 +115,13 @@
 .player__col {
   &--left {
     width: 560px;
+    padding-left: 3px;
+    padding-top: 7px;
   }
 
   &--right {
     width: 300px;
+    padding-top: 9px;
   }
 }
 
@@ -130,6 +133,7 @@
 
 .player__song-name {
   .ma-pa-reset();
+  font-size: 14px;
   line-height: 17px;
   font-weight: 400;
 }
@@ -157,7 +161,7 @@
 .player__point {
   position: absolute;
   top: 0;
-  left: 66px;
+  left: 60px;
   margin-top: -4px;
   width: 16px;
   height: 16px;
@@ -172,5 +176,5 @@
 .player__controls-list {
   .list-reset();
   .display-flex-start();
-  padding-left: 20px;
+  padding-left: 22px;
 }
